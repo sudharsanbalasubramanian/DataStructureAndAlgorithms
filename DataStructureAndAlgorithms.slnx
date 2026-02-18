@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../SharedProject/SharedProject.csproj" Id="5a890dc4-87c6-410d-b721-421e2f613c74" />
   <Project Path="DataStructureAndAlgorithms.csproj" />
 </Solution>

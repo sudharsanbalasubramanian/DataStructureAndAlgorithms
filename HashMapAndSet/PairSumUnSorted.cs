@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SharedProject.Extensions;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -8,6 +9,11 @@ public static class PairSumUnSorted
 {
     public static int[] TwoSum(int[] arr, int target)
     {
+        if (arr.IsNullOrEmpty())
+        {
+            return [];
+        }
+
         Dictionary<int, int> map = [];
 
         for (int i = 0; i < arr.Length; i++)
