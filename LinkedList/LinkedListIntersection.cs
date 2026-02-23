@@ -10,7 +10,7 @@ public static class LinkedListIntersection
     {
         if (headA == null || headB == null)
         {
-            return null;
+            throw new ArgumentNullException();
         }
 
         Node<T> p1 = headA;
